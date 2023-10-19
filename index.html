@@ -1,0 +1,95 @@
+<html>
+
+<head>
+    <script type="text/javascript" src="script.js">
+    </script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+
+</head>
+
+<body onload=finalproject() style = "background-color: #1DB954">
+
+
+    <div> 
+        <div style = "background-image: url('spotify_b1.webp'); color: white; font-family: Gotham;">
+        <h2 class="section" style = "font-size:xx-large;"><br>How do you determine music artist popularity?</h2>
+            <h4 style = "text-align:center";>The measure of an artist's popularity is often subjective, with different individuals assessing it based on 
+                <br> various factors such as streaming numbers, collaborations with other artists, or international rankings. 
+                <br> By visually analyzing these statistics, we can aim to introduce an element of objectivity into the evaluation of an artist's popularity.
+                <br><br></h4>
+        </div>
+        <div style = "background-image: url('spotify_b1.webp');">
+        <div>
+            <h3 style = "color: white; text-align: center"><br>By Total Stream Count</h3>
+        </div>
+        <div style = "color: white; text-align: center; font-family: Gotham;">
+            For instance, a bar graph comparing the top 50 artists by their lead streaming
+             <br> numbers can provide a clear indication of their relative "popularity." 
+             <br><b>Lead streams</b> is defined by the total number of streams an artist gets from 
+             <br> tracks available inside their personal page’s sections Albums, Singles and Compilations. 
+             <br> By examining this graph, we can observe that <b>Drake</b> has the highest total number 
+             <br> of streams on Spotify, leading some to consider him as the most popular artist.
+        </div>
+         <div id="q1_plot" class="center_plot">
+        </div>
+    </div>
+
+
+    <div style = "background-image: url('spotify_b1.webp'); font-family: Gotham;">
+    
+        <h3 style = "color: white; text-align: center"><br>By Total Number of Collaborations</h3>
+        <div style = "color: white; text-align: center; font-family: Gotham;">
+            Through the exploration of this network graph, we can explore the connections between artists 
+        <br>through their collaborations on popular songs. Each line represents collaborations that happened
+        <br>in the music industry. These features and connections can significantly impact an artist's overall
+        <br> demand and influence. The artists in this graph are part of the top 50 artists who have the most collaborations. 
+        <br>The reasoning behind this is to show who has connections with people who have a lot of connections. 
+        <br> As you can see in this graph, <b>Nicki Minaj</b> has the most links with other collaborating artists. 
+        <br> According to this definition of popularity, she would be deemed the most popular artist. </div>
+        <br>
+        <br>
+        <h4 style = "color: white; text-align: center"> Artist Collaborations</h4>
+        <div id="q2_plot" class="center_plot">
+        </div>
+        <br>
+        <br>
+    </div>
+
+    <div style = "background-image: url('spotify_b1.webp'); font-family: Gotham;">
+
+
+        <div>
+            <h3 style = "color: white; text-align: center"><br>By International Rankings</h3>
+
+        </div>
+        <div style = "color: white; text-align: center">
+            Furthermore, this choropleth displaying the distribution of Spotify streams worldwide can be used as a metric. 
+            <br>The density of colors on the map corresponds to the concentration of streams in different regions.  
+            <br>This raises questions about the relationship between international fame and popularity. 
+            <br>This graph shows the top 5 popular songs' artist(s) per region. Arianna Grande’s songs 
+            <br> ranks highly in numerous countries and would be considered “popular” in an international viewpoint. 
+            <br> Therefore, in an international setting, Arianna Grande would be considered the most popular artist. 
+            <br> (Note: some data is missing for stream count and popular artists)
+            <br>
+            <br> 
+            <h4 style = "color: white; text-align: center"> Distribution of Streams World Wide and Top 5 Artists of Each Country</h4>
+            <div id="q3_plot" class="center_plot">
+            </div>
+            <br>
+            <br>
+        </div>
+    </div>
+        <br>
+    <br>
+    <div style = "background-image: url('spotify_b1.webp'); font-family: Gotham; text-align: center; color: white;"> 
+        <br>
+        While acknowledging that popularity remains subjective, visual indicators can assist in determining who you personally perceive as 
+        <br>the most popular artist. Your assessment may be influenced by a combination of factors or a personal weighting of specific criteria. 
+        <br> Ultimately, what matters most is the artist you love and consider popular according to your own judgment.
+        <br>
+        <br>
+    </div>
+    </body>
+
+</html>
